@@ -4,17 +4,12 @@ My Pets -
     species : {{species.species}}
     name : {{species.name}}
 {%- endfor %}
-{# this is a single line comment in jinja #}
-{# this 
-is a
-multi-line
-comment in jinja
-#}
+
 Movie Stars -
 {%- for species in animals.movie_stars %}
     species : {{species.species}}
     name : {{species.name}}
-{%- endfor %}}
+{%- endfor %}
 {% else %}
 Animals is not defined 
 {% endif %}
