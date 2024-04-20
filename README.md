@@ -14,4 +14,4 @@ Make sure that we are giving the correct template with the corresponding input f
 
 ## To run scripts of dir_2
     - python3 tutorial.py
-    - 
+    - python3 generate_student_card.py
