@@ -1,0 +1,14 @@
+{% if name is defined%}
+Hello {{name}},
+{% else %}
+Error: Name is not defined in the .json file
+{% endif %}
+{% if test_name and score and max_score is defined%}
+I'm happy to inform you that you did very well on today's {{test_name}}.
+
+You have achieved {{score}} out of {{max_score}} points!
+
+Thank you !
+{% else %}
+Error: test_name, score and max_score not defined in the .json file
+{% endif %}

@@ -1,0 +1,13 @@
+animals:
+  my_pets:
+    - species : dog
+      name : Annie
+    - species : cat
+      name : Mrs. Brownstone
+  movie_stars:
+    - species : lion
+      name : Simba
+    - species : fish
+      name : Nemo
+    - species : fish
+      name : Dora

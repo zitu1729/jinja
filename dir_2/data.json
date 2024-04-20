@@ -1,0 +1,9 @@
+{
+    "MAX_SCORE": 100,
+    "TEST_NAME": "Python Challenge",
+    "students":[
+        {"name": "Willow", "score": 100},
+        {"name": "Cordelia", "score": 85},
+        {"name": "Jane", "score": 99}
+    ]
+}
